@@ -1,0 +1,36 @@
+@import "styles.css";
+
+@font-face {
+  font-family: MyFont;
+  font-style: normal;
+  font-weight: normal;
+  src: local("MyFont"), url("../vendor/font/Rubik-Regular.ttf") format("woff");
+}
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)), url("../asset/img/background/background.png");
+  background-repeat: repeat;
+  font-family: MyFont;
+  font-size: 16px;
+  color: #353935;
+}
+
+.main-cont {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-cont {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+}
