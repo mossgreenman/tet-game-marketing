@@ -66,16 +66,7 @@
 
 .download-gr {
   display: flex;
-  flex-direction: row;
-  gap: 12px;
-}
-
-@media only screen and (max-width: 768px) {
-  .download-gr {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
+  flex-direction: column;
 }
 
 .download-adr {
@@ -83,7 +74,7 @@
   color: #fff;
   font-size: 32px;
   padding: 24px;
-  border-radius: 6px;
+  border-top-left-radius: 24px;
   cursor: pointer;
 }
 
@@ -92,7 +83,7 @@
   color: #fff;
   font-size: 32px;
   padding: 24px;
-  border-radius: 6px;
+  border-bottom-right-radius: 24px;
   cursor: pointer;
 }
 
